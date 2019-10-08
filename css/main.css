@@ -1,0 +1,1010 @@
+@font-face {
+    font-family: 'fonts/reeyregular';
+    src: url('fonts/reey-regular-webfont.woff2') format('woff2'),
+         url('fonts/reey-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    min-width: 600px;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+
+
+.siteHeader {
+    border-top: 10px solid #ffc1c1;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.siteHeader nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.siteHeader nav li {
+    margin-right: 25px;
+}
+
+
+.siteHeader nav li a{
+    text-decoration-line: none;
+    font-family: 'Bentham';
+    text-transform: uppercase;
+    color: #5D5D5D;
+
+}
+
+
+.siteHeader nav li a:hover{
+    color: #CC9A9A;
+
+
+}
+
+
+
+
+/*HOMEPAGE CSS START*/
+
+.mainImg {
+  
+}
+
+.mainImg img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageRibbon {
+    display: flex;
+    width: auto;
+}
+
+.imageRibbon img {
+    max-width:100%;
+    height:auto;
+    object-fit: contain;
+}
+
+.welcome {
+    align-content: center;
+}
+
+
+.welcome {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    border-bottom: 1px solid #ffc1c1;
+}
+
+
+.welcome h1 {
+    font-family: 'fonts/reeyregular';
+    color: #5D5D5D;
+    margin-bottom: 0px;
+
+}
+
+.welcome p {
+    margin-top: 0px;
+    text-align: center;
+    font-family:'Bentham', sans-serif;
+    font-size: 18px;
+    color: #252525;
+}
+
+
+
+
+.latestLooks  {
+    padding: 5%;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+.latestLooks h2 {
+    font-family: 'Bentham', sans-serif;
+    text-align: left;
+}
+
+.latestLooks a {
+    text-decoration-line: none;
+    color: #252525;
+}
+
+.latestLooks a:hover {
+    color: #CC9A9A;
+}
+
+
+.latestLooksImages {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    padding: 2%;
+}
+
+
+.latestLooks h5 {
+    font-size: 12px;
+    font-family: 'Bentham', sans-serif;
+    text-transform: uppercase;
+}
+
+.latestLooks p {
+    font-size: 10px;
+    font-family: 'Bentham', sans-serif;
+}
+
+
+.faveLooks {
+    padding: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+
+.faveLooks h2 {
+    font-family: 'Bentham', sans-serif;
+    text-align: left;
+}
+
+.faveLooks a {
+    text-decoration-line: none;
+    color: #252525;
+}
+
+.faveLooks a:hover {
+    color: #CC9A9A;
+}
+
+
+.faveLooksImages {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    padding: 2%;}
+
+
+.faveLooksImages p {
+    align-items: baseline;
+}
+
+
+.faveLooks h5 {
+    font-size: 12px;
+    font-family: 'Bentham', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.faveLooks p {
+    font-size: 12px;
+}
+
+
+
+
+.processOfLook {
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+
+.processOfLook h2 {
+    font-family: 'Bentham', sans-serif;
+    text-align: left;
+}
+
+.processOfLook a {
+    text-decoration-line: none;
+    color: #252525;
+}
+
+.processOfLook a:hover {
+    color: #CC9A9A;
+}
+
+
+
+.timelinePhotos {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.timelinePhotos img {
+
+}
+
+
+
+
+
+
+/*.timelinePhotos:nth-child(2){
+    margin-right: 25px;
+}*/
+
+.timelineReach {
+    animation-name: lightupReach;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+        
+}
+
+
+@keyframes lightupReach {
+    0%  {filter:grayscale(100%);}
+    25% {filter:none;}  
+    50%  {filter: none;}
+    75%  {filter: none;}
+    100% {filter: none;}  
+    
+}
+
+.timelineSketch {
+    animation-name: lightupSketch;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes lightupSketch {
+    0%  {filter:grayscale(100%); }
+    25% {filter:grayscale(100%);}
+    50%  {filter: none;}
+    75%  {filter: none;}
+    100% {filter: none;}  
+    
+}
+
+
+
+.timelineFitting {
+    animation-name: lightupFitting;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+        
+}
+
+@keyframes lightupFitting {
+    0%  {filter:grayscale(100%); }
+    25% {filter:grayscale(100%);}
+    50%  {filter:grayscale(100%);}
+    75%  {filter: none;}
+    100% {filter: none;}  
+    
+}
+
+
+.timelineCarpet {
+    animation-name: lightupCarpet;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+        
+}
+
+@keyframes lightupCarpet {
+    0% {filter:grayscale(100%); }
+    50% {filter: grayscale(100%);}
+    75% {filter: grayscale(100%);}
+    100% {filter: none;}  
+    
+}
+   
+
+
+.timelineSketch {
+  filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.timelineSketch:hover {
+    filter: none;
+}
+
+
+.timelineFitting {
+  filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.timelineFitting:hover {
+    filter: none;
+}
+    
+.timelineCarpet {
+  filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.timelineCarpet:hover {
+    filter: none;
+}
+
+
+    
+    
+ /*PROGRESS BAR CSS START*/
+ 
+/*
+.progressbar {
+    counter-reset: step;
+}
+.progressbar li {
+    list-style-type: none;
+    float: left;
+    width: 25%;
+    position: relative;
+    text-align: center;
+}
+
+
+
+.progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    border: 1px solid darkblue;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 8px;
+}
+
+
+
+.progressbar li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: darkblue;
+    top: 5px;
+    left: -50%;
+    z-index: -1;
+}
+
+
+.progressbar li:first-child:after {
+    content: none;
+}
+
+
+.progressbar li.active:hover {
+    color: fuchsia;
+}
+
+.progressbar li.active:before {
+    border-color: fuchsia;
+    background-color: darkblue;
+}
+
+
+.progressbar li.active + li:after {
+    background-color: fuchsia;
+} 
+
+
+
+
+ /*PROGRESS BAR CSS END*/
+
+
+/*HOMEPAGE CSS ENDS*/
+
+
+
+/*SHOP THE LOOK LANDING PAGE CSS START*/
+.sTLPageTitle {
+    padding: 50px;
+    font-family: 'Bentham' , sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #252525;
+}
+
+
+
+.shopAB, .shopCD, .shopEF, .shopGH, .shopIJ, .shopKL 
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Bentham' , sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+.sadieLookA a {
+    text-decoration-line: none;
+}
+
+.sadieLookA h2:hover {
+    color: #FFC1C1;
+}
+
+.sadieLookA p:hover {
+    color: #FFC1C1;
+
+}
+
+
+.shopAB h2, .shopCD h2, .shopEF h2, .shopGH h2, .shopIJ h2, .shopKL h2 {
+    font-size: 16px;
+    color: #5D5D5D;
+}
+
+
+.shopAB p, .shopCD p, .shopEF p, .shopGH p, .shopIJ p, .shopKL p {
+    font-size: 14px;
+    color: #5D5D5D;
+}
+
+
+.sadieLookA, .sadieLookB, .sadieLookC, .sadieLookD, .sadieLookE, .sadieLookF, .scarJoLookA, .scarJoLookB, .katLangLookA, 
+.camilaMendesLookA, .katLangLookB, .katLangLookC {
+    padding: 25px 50px 15px 50px;
+    margin: 2%;
+}
+
+.shopAB img, .shopCD img, .shopEF img, .shopGH img, .shopIJ img, .shopKL img {
+border-top: 8px solid #FFC1C1;
+border-bottom: 8px solid #FFC1C1;
+}
+
+
+
+.shopKL {
+    margin-left: 50px;
+}
+
+.katLangLookC {
+    margin-right: 60px;
+}
+
+
+/*SHOP THE LOOK LANDING PAGE CSS END*/
+
+
+
+
+/*Sadie STL Premiere START*/
+
+
+
+.shopPageTitle {
+    text-align: center;
+    font-family: 'Bentham' , sans-serif;
+    text-transform: uppercase;
+}
+
+.sadieStylingSeries img {
+    border: 1px solid blue;
+    padding: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.sadieInteractiveA {
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#shoppingLinks {
+    text-align: center;
+    font-family: 'Reem Kufi' , sans-serif;
+
+}
+
+#shoppingLinks a {
+    color: #5D5D5D;
+}
+
+#shoppingLinks a:hover {
+    color: #FFC1C1;
+}
+/*Sadie STL Premiere END*/
+
+
+
+/*BEHIND THE SCENES CSS START*/
+
+
+.btsPageTitle {
+    padding: 50px;
+    font-family: 'Bentham' , sans-serif;
+    font-size: 20px;
+    color: #5D5D5D;
+    text-transform: uppercase;
+}
+
+
+
+.btsLandingPageContent {
+    font-family: 'Bentham' , sans-serif;
+    text-transform: uppercase;
+}
+
+
+.btsTimeline {
+    padding: 15px 50px;
+}
+
+.btsTimelineP {
+    padding-left: 75px;
+    padding-top: 25px;
+    border-top: 1px solid #FFC1C1;
+}
+
+.btsLandingPageContent a {
+    text-decoration-line: none;
+    color: #252525;
+    font-size: 24px;
+}
+
+.btsLandingPageContent a:hover {
+    color: #FFC1C1;
+}
+
+
+.onSetWithMolly {
+    background-color: #252525;
+    border-bottom: 2px solid grey;
+}
+
+
+.onSetWithMolly p {
+    padding: 15px 75px;
+    color: white;
+    font-size: 24px;
+
+}
+
+.onSetWithMollyVideo {
+    padding: 15px 200px 50px 200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.shopWithMolly {
+    background-color: #252525;
+    border-bottom: 2px solid grey;
+
+
+}
+
+.shopWithMolly p {
+    padding: 15px 75px;
+    color: white;
+    font-size: 24px;
+
+}
+
+.shopWithMollyVideo {
+    padding: 15px 200px 50px 200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.mollysCloset {
+    background-color: #252525;
+    border-bottom: 2px solid grey;
+}
+
+.mollysCloset p {
+    padding: 15px 75px;
+    color: white;
+    font-size: 24px;
+}
+
+
+.mollysClosetVideo {
+    padding: 15px 200px 50px 200px;
+     display: flex;
+    justify-content: center;
+}
+
+
+
+
+.btsVideos {
+       background-color: #252525;
+}
+
+
+
+/*BEHIND THE SCENES CSS END*/
+
+
+
+
+/*BEHIND THE LOOK CSS START*/
+
+.btlWelcome {
+    text-align: center;
+}
+
+
+.btlTitle {
+    margin-left: 50px;
+    margin-bottom: 150px;
+    font-family: 'Bentham' , sans-serif;
+    text-transform: uppercase;
+}
+
+.btlTitle h2 {
+    font-size: 24px
+}
+
+btlTitle p {
+    font-size: 16px;
+}
+
+
+
+.btlWelcome {
+    padding: 10px 175px;
+}
+
+.btlWelcome h4 {
+    font-family: 'Reey' , sans-serif;
+    font-size: 36px;
+}
+
+
+.btlWelcome p {
+    font-family: 'Bentham' , sans-serif;
+    font-size: 20px;
+}
+
+
+/*
+*{
+            margin: 0;
+            padding: 0;
+        }
+*/
+
+.timeline {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 700px;
+  position: relative;
+}
+
+.timeline__content-title {
+  font-weight: normal;
+  font-size: 66px;
+  margin: -10px 0 0 0;
+  transition: 0.4s;
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-family: 'Bentham', sans-serif;
+  color: #fff;
+}
+.timeline__content-desc {
+  margin: 0;
+  font-size: 15px;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, .7);
+  font-family: 'Bentham', sans-serif;
+  font-weight: normal;
+  line-height: 25px;
+}
+.timeline:before {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  margin-left: -1px;
+  content: "";
+  background: rgba(255, 255, 255, .07);
+}
+@media only screen and (max-width: 767px) {
+  .timeline:before {
+    left: 40px;
+  }
+}
+.timeline-item {
+  padding: 40px 0;
+  opacity: 0.3;
+  filter: blur(2px);
+  transition: 0.5s;
+  box-sizing: border-box;
+  width: calc(50% - 40px);
+  display: flex;
+  position: relative;
+  transform: translateY(-80px);
+}
+.timeline-item:before {
+  content: attr(data-text);
+  letter-spacing: 3px;
+  width: 100%;
+  position: absolute;
+  color: rgba(255, 255, 255, .5);
+  font-size: 13px;
+  font-family: 'Bentham', sans-serif;
+  border-left: 2px solid rgba(255, 255, 255, .5);
+  top: 70%;
+  margin-top: -5px;
+  padding-left: 15px;
+  opacity: 0;
+  right: calc(-100% - 56px);
+}
+.timeline-item:nth-child(even) {
+  align-self: flex-end;
+}
+.timeline-item:nth-child(even):before {
+  right: auto;
+  text-align: right;
+  left: calc(-100% - 56px);
+  padding-left: 0;
+  border-left: none;
+  border-right: 2px solid rgba(255, 255, 255, .5);
+  padding-right: 15px;
+}
+.timeline-item--active {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0px);
+}
+.timeline-item--active:before {
+  top: 50%;
+  transition: 0.3s all 0.2s;
+  opacity: 1;
+}
+.timeline-item--active .timeline__content-title {
+  margin: -50px 0 20px 0;
+}
+@media only screen and (max-width: 767px) {
+  .timeline-item {
+    align-self: baseline !important;
+    width: 100%;
+    padding: 0 30px 150px 80px;
+  }
+  .timeline-item:before {
+    left: 10px !important;
+    padding: 0 !important;
+    top: 50px;
+    text-align: center !important;
+    width: 60px;
+    border: none !important;
+  }
+  .timeline-item:last-child {
+    padding-bottom: 40px;
+  }
+}
+.timeline__img {
+  max-width: 100%;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .4);
+}
+.timeline-container {
+  width: 100%;
+  position: relative;
+  padding: 80px 0;
+  transition: 0.3s ease 0s;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.timeline-container:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+ background: rgba(25,25,25,0);
+  content: "";
+}
+
+
+.timeline-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+.timeline-header__title {
+  color: #fff;
+  font-size: 58px;
+  font-family: 'Bentham', sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+.timeline-header__subtitle {
+  color: rgba(255, 255, 255, .5);
+  font-family: 'Bentham', sans-serif;
+  font-size: 16px;
+  letter-spacing: 5px;
+  margin: 10px 0 0 0;
+  font-weight: normal;
+}
+.demo-footer {
+  padding: 60px 0;
+  text-align: center;
+}
+.demo-footer a {
+  color: #999;
+  display: inline-block;
+  font-family: 'Bentham';
+}
+
+
+#timeline-item-1 {
+    display: flex;
+}
+
+
+/*BEHIND THE LOOK CSS END*/
+
+
+
+
+/*ABOUT PAGE CSS START*/
+
+.aboutContent {
+    border: 1px solid pink;
+    
+}
+
+
+.aboutSite {
+    padding: 10px 200px 100px 200px;
+    text-align: center;
+    border: 1px solid #FFC1C1;
+}
+
+
+.aboutSiteDear {
+    font-family: 'fonts/reeyregular' , sans-serif;
+    color: #e8c9c2;
+    font-size: 36px;
+    margin-top: 0px;
+}
+
+
+.aboutSite p {
+    font-family: 'Bentham', sans-serif;
+    font-size: 20px
+}
+
+.bio {
+    padding: 50px;
+    font-family: 'Bentham' , 'sans-serif';
+}
+
+.bioTitle {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.bioContent {
+    display: flex;
+    padding-bottom: 15%;
+}
+
+
+.bioText {
+    margin-left: 45px;
+    font-size: 20px;
+    padding: 0% 2%;
+}
+
+
+
+.aboutFooter {
+    border-top: 8px solid #ffc1c1;
+    margin-top: 0;
+    font-family: 'Reem Kufi' , sans-serif;
+}    
+
+/*ABOUT PAGE CSS END*/
+
+
+
+
+
+/*CONTACT PAGE CSS START*/
+
+.emailform {
+    padding: 25px;
+    font-family: 'Bentham', sans-serif;
+    text-align: center;
+}
+
+
+
+.emailform p {
+    margin-bottom: 0;
+}
+
+.contactName {
+    border: 1px solid red;
+    display: flex;
+}
+
+
+#submit {
+    padding-top: 25px;
+}
+
+
+
+
+.footer  {
+    border-top: 8px solid #ffc1c1;
+    margin-top: 10%;
+    padding: 2%;
+    font-family: 'Reem Kufi' , sans-serif;
+}
+
+.footersocial h4, .footersocial p {
+text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: #5D5D5D;
+}
+
+
+.footersocial ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0%;
+
+}
+
+.footersocial ul , .footersocial p {
+    padding: 0px;
+}
+
+.instagram a {
+    text-decoration-line: none;
+    color: #FFC1C1;
+    opacity: 1;
+}
+
+.instagram a:hover {
+opacity: 0.4;
+}
+
+.footerCopyright {
+    font-size: 12px
+}
+
+
+
