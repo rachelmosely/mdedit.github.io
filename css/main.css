@@ -510,6 +510,11 @@ border-bottom: 8px solid #FFC1C1;
     
 }
 
+.shopPageTitle h4 {
+    font-family: 'Bentham' , sans-serif;
+
+}
+
 .shopPageTitle p {
     font-family: 'Be Vietnam' , sans-serif;
     font-size: 12px;
