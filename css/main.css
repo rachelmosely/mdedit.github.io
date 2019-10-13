@@ -521,10 +521,21 @@ border-bottom: 8px solid #FFC1C1;
 }
 
 
-#shoppingLinks {
-    text-align: center;
-    font-family: 'Reem Kufi' , sans-serif;
 
+#shoppingLinks {
+    text-align: left;
+    font-family: 'Bentham' , sans-serif;
+    font-size: 18px;
+    margin-left: 25px;
+
+}
+
+#shoppingLinks a {
+    color: #5D5D5D;
+}
+
+#shoppingLinks a:hover {
+    color: #FFC1C1;
 }
 
 #shoppingLinks a {
