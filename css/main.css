@@ -913,6 +913,9 @@ btlTitle p {
     display: flex;
 }
 
+.timeline-item a {
+    color: hotpink;
+}
 
 /*BEHIND THE LOOK CSS END*/
 
