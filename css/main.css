@@ -707,7 +707,7 @@ border-bottom: 8px solid #FFC1C1;
 }
 
 .btlTitle h2 {
-    font-family: 'Federo' , sans-serif';
+    font-family: 'Federo' , sans-serif;
     font-size: 24px;
 }
 
@@ -916,6 +916,7 @@ btlTitle p {
 
 .timeline-item a {
     color: hotpink;
+    text-decoration-line: none;
 }
 
 /*BEHIND THE LOOK CSS END*/
