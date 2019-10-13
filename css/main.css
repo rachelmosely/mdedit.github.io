@@ -702,7 +702,7 @@ border-bottom: 8px solid #FFC1C1;
 
 .btlTitle {
     margin-left: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     font-family: 'Bentham' , sans-serif;
     text-transform: uppercase;
 }
@@ -719,7 +719,7 @@ btlTitle p {
 
 
 .btlWelcome {
-    padding: 10px 175px;
+    padding: 10px 175px 150px 175px;
 }
 
 .btlWelcome h4 {
