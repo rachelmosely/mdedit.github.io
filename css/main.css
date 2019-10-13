@@ -505,6 +505,16 @@ border-bottom: 8px solid #FFC1C1;
     text-transform: uppercase;
 }
 
+.shopPageTitle h2 {
+    font-family: 'Federo' , sans-serif;
+}
+
+
+
+.shopPageTitle p {
+    font-family: 'Be Vietnam' , sans-serif;
+}
+
 .sadieStylingSeries img {
     border: 1px solid blue;
     padding: 25%;
@@ -520,6 +530,21 @@ border-bottom: 8px solid #FFC1C1;
     justify-content: center;
 }
 
+.sadieInteractiveATitle {
+    margin-top: 100px;
+}
+
+
+.sadieInteractiveATitle p {
+    padding-top: 35px;
+    margin-bottom: 0px;
+    padding-left: 50px;
+    font-family: 'Bentham', sans-serif;
+    font-size: 18px;
+    font-style: italic; 
+    font-weight: 400;
+    border-top: 1px dotted #f8b6b8;
+}
 
 
 #shoppingLinks {
