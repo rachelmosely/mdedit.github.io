@@ -505,12 +505,10 @@ border-bottom: 8px solid #FFC1C1;
     text-transform: uppercase;
 }
 
-.shopPageTitle h4 {
+.shopPageTitle h2 {
     font-family: 'Federo' , sans-serif;
     
 }
-
-
 
 .shopPageTitle p {
     font-family: 'Be Vietnam' , sans-serif;
