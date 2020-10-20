@@ -603,11 +603,8 @@ border-bottom: 8px solid #FFC1C1;
     padding: 25px;
 }
 
-.btsTimeline img {
-    padding: 0px 5px 0px 5px;
-}
 
-.btsTimeline p {
+.btsTimelineP a {
     padding-left: 10px;
     padding-top: 25px;
     border-top: 1px solid #FFC1C1;
