@@ -518,7 +518,7 @@ border-bottom: 8px solid #FFC1C1;
 }
 
 .shopPageTitle p {
-    font-family: 'Be Vietnam';
+    font-family: 'Be+Vietnam';
     font-size: 12px;
 }
 
@@ -707,12 +707,12 @@ border-bottom: 8px solid #FFC1C1;
 .btlTitle {
     margin-left: 50px;
     margin-bottom: 100px;
-    font-family: 'Bentham';
+    font-family: 'Reem Kufi';
     text-transform: uppercase;
 }
 
 .btlTitle h2 {
-    font-family: 'Federo' , sans-serif;
+    font-family: 'Reem Kufi' , sans-serif;
     font-size: 24px;
 }
 
@@ -733,7 +733,7 @@ btlTitle p {
 
 
 .btlWelcome p {
-    font-family: 'Bentham';
+    font-family: 'Be+Vietnam';
     font-size: 20px;
 }
 
