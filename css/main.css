@@ -101,7 +101,7 @@ body {
 .welcome p {
     margin-top: 0px;
     text-align: center;
-    font-family:'Bentham';
+    font-family:'Quicksand';
     font-size: 18px;
     color: #252525;
 }
@@ -141,13 +141,13 @@ body {
 }
 
 
-.latestLooks h5 {
+.latestLookOne h5, .latestLookTwo h5, .latestLookThree h5 {
     font-size: 16px;
     font-family: 'Bentham';
     text-transform: uppercase;
 }
 
-.latestLooks p {
+.latestLookOne p, .latestLookTwo p, .latestLookThree p {
     font-size: 14px;
     font-family: 'Bentham';
 }
@@ -162,10 +162,11 @@ body {
 
 .faveLooks h2 {
     text-align: left;
+    font-family: 'Federo';
+
 }
 
 .faveLooks a {
-    font-family: 'Federo';
     text-decoration-line: none;
     color: #252525;
 }
