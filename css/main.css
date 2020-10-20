@@ -508,17 +508,17 @@ border-bottom: 8px solid #FFC1C1;
 }
 
 .shopPageTitle h2 {
-    font-family: 'Federo' , sans-serif;
+    font-family: 'Federo';
     
 }
 
 .shopPageTitle h4 {
-    font-family: 'Bentham', sans-serif;
+    font-family: 'Bentham';
 
 }
 
 .shopPageTitle p {
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Be Vietnam';
     font-size: 12px;
 }
 
@@ -546,7 +546,7 @@ border-bottom: 8px solid #FFC1C1;
     padding-top: 35px;
     margin-bottom: 0px;
     padding-left: 50px;
-    font-family: 'Bentham', sans-serif;
+    font-family: 'Bentham';
     font-size: 18px;
     font-style: italic; 
     font-weight: 400;
@@ -556,7 +556,7 @@ border-bottom: 8px solid #FFC1C1;
 
 #shoppingLinks {
     text-align: left;
-    font-family: 'Bentham' , sans-serif;
+    font-family: 'Bentham';
     font-size: 18px;
     margin-left: 25px;
 
@@ -586,7 +586,7 @@ border-bottom: 8px solid #FFC1C1;
 
 .btsPageTitle {
     padding: 50px;
-    font-family: 'Bentham' , sans-serif;
+    font-family: 'Bentham';
     font-size: 20px;
     color: #5D5D5D;
     text-transform: uppercase;
@@ -595,7 +595,7 @@ border-bottom: 8px solid #FFC1C1;
 
 
 .btsLandingPageContent {
-    font-family: 'Kodchasan' , sans-serif;
+    font-family: 'Kodchasan';
     text-transform: uppercase;
 }
 
@@ -705,7 +705,7 @@ border-bottom: 8px solid #FFC1C1;
 .btlTitle {
     margin-left: 50px;
     margin-bottom: 100px;
-    font-family: 'Bentham' , sans-serif;
+    font-family: 'Bentham';
     text-transform: uppercase;
 }
 
@@ -725,13 +725,13 @@ btlTitle p {
 }
 
 .btlWelcome h4 {
-    font-family: 'Reey' , sans-serif;
+    font-family: 'fonts/reeyregular';
     font-size: 36px;
 }
 
 
 .btlWelcome p {
-    font-family: 'Bentham' , sans-serif;
+    font-family: 'Bentham';
     font-size: 20px;
 }
 
@@ -763,7 +763,7 @@ btlTitle p {
   transition: 0.4s;
   padding: 0 10px;
   box-sizing: border-box;
-  font-family: 'Bentham', sans-serif;
+  font-family: 'Bentham';
   color: #fff;
 }
 .timeline__content-desc {
@@ -771,7 +771,7 @@ btlTitle p {
   font-size: 15px;
   box-sizing: border-box;
   color: rgba(255, 255, 255, .7);
-  font-family: 'Bentham', sans-serif;
+  font-family: 'Bentham';
   font-weight: normal;
   line-height: 25px;
 }
@@ -807,7 +807,7 @@ btlTitle p {
   position: absolute;
   color: rgba(255, 255, 255, .5);
   font-size: 13px;
-  font-family: 'Bentham', sans-serif;
+  font-family: 'Bentham';
   border-left: 2px solid rgba(255, 255, 255, .5);
   top: 70%;
   margin-top: -5px;
@@ -890,13 +890,13 @@ btlTitle p {
 .timeline-header__title {
   color: #fff;
   font-size: 58px;
-  font-family: 'Bentham', sans-serif;
+  font-family: 'Bentham';
   font-weight: normal;
   margin: 0;
 }
 .timeline-header__subtitle {
   color: rgba(255, 255, 255, .5);
-  font-family: 'Bentham', sans-serif;
+  font-family: 'Bentham';
   font-size: 16px;
   letter-spacing: 5px;
   margin: 10px 0 0 0;
