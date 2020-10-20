@@ -601,11 +601,11 @@ border-bottom: 8px solid #FFC1C1;
 
 
 .btsTimeline {
-    padding: 15px 0px;
+    padding: 25px;
 }
 
-.btsTimelineP {
-    padding-left: 250px;
+.btsTimeline p {
+    padding-left: 75px;
     padding-top: 25px;
     border-top: 1px solid #FFC1C1;
 }
