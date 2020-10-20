@@ -424,7 +424,7 @@ body {
 
 .sTLPageTitle {
     padding: 50px;
-    font-family: 'Federo' , sans-serif;
+    font-family: 'Federo', sans-serif;
     text-transform: uppercase;
     font-size: 20px;
     color: #252525;
@@ -437,7 +437,7 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: 'Bentham' , sans-serif;
+    font-family: 'Bentham', sans-serif;
     text-transform: uppercase;
 }
 
@@ -511,12 +511,12 @@ border-bottom: 8px solid #FFC1C1;
 }
 
 .shopPageTitle h4 {
-    font-family: 'Bentham' , sans-serif;
+    font-family: 'Bentham', sans-serif;
 
 }
 
 .shopPageTitle p {
-    font-family: 'Be Vietnam' , sans-serif;
+    font-family: 'Be Vietnam', sans-serif;
     font-size: 12px;
 }
 
