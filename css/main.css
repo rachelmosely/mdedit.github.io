@@ -118,10 +118,11 @@ body {
 
 .latestLooks h2 {
     text-align: left;
+    font-family: 'Quicksand';
+
 }
 
 .latestLooks a {
-    font-family: 'Federo';
     text-decoration-line: none;
     color: #252525;
 }
