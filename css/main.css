@@ -7,10 +7,6 @@
 
 }
 
-body {
-  /* min-width: 600px;*/
-    margin: 0%;
-}
 
 html,body
 {
@@ -19,6 +15,8 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    min-width: 600px;
+
 }
 
 
