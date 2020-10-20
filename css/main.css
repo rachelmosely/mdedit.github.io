@@ -707,19 +707,19 @@ border-bottom: 8px solid #FFC1C1;
 .btlTitle {
     margin-left: 50px;
     margin-bottom: 100px;
-    font-family: 'Reem Kufi';
     text-transform: uppercase;
 }
 
 .btlTitle h2 {
-    font-family: 'Reem Kufi' , sans-serif;
+    font-family: 'Federo' , sans-serif;
     font-size: 24px;
 }
 
-btlTitle p {
+
+.btlTitle p {
+    font-family: 'Bentham' , sans-serif;
     font-size: 16px;
 }
-
 
 
 .btlWelcome {
