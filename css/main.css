@@ -595,7 +595,7 @@ border-bottom: 8px solid #FFC1C1;
 
 
 .btsLandingPageContent {
-    font-family: 'Kodchasan';
+    font-family: 'Reem+Kufi';
     text-transform: uppercase;
 }
 
@@ -631,6 +631,7 @@ border-bottom: 8px solid #FFC1C1;
     padding: 15px 75px;
     color: white;
     font-size: 24px;
+    font-family: 'Reem+Kufi';
 
 }
 
@@ -652,6 +653,7 @@ border-bottom: 8px solid #FFC1C1;
     padding: 15px 75px;
     color: white;
     font-size: 24px;
+    font-family: 'Kodchasan';
 
 }
 
