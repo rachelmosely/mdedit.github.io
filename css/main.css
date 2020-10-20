@@ -101,7 +101,7 @@ body {
 .welcome p {
     margin-top: 0px;
     text-align: center;
-    font-family:'Bentham', sans-serif;
+    font-family:'fonts/Bentham', sans-serif;
     font-size: 18px;
     color: #252525;
 }
@@ -117,7 +117,7 @@ body {
 
 
 .latestLooks h2 {
-    font-family: 'Federo', sans-serif;
+    font-family: 'fonts/Federo', sans-serif;
     text-align: left;
 }
 
