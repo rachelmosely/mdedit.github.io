@@ -8,16 +8,15 @@
 }
 
 body {
-    min-width: 600px;
+  /* min-width: 600px;*/
     margin: 0%;
 }
 
 
-
 .siteHeader {
     border-top: 10px solid #ffc1c1;
-    border-left: none;
-    border-right: none;
+    /*border-left: none;
+    border-right: none;*/
     margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
@@ -142,13 +141,13 @@ body {
 
 .latestLookOne h5, .latestLookTwo h5, .latestLookThree h5 {
     font-size: 16px;
-    font-family: 'Bentham';
+    font-family: 'Quicksand';
     text-transform: uppercase;
 }
 
 .latestLookOne p, .latestLookTwo p, .latestLookThree p {
     font-size: 14px;
-    font-family: 'Bentham';
+    font-family: 'Quicksand';
 }
 
 
@@ -161,7 +160,7 @@ body {
 
 .faveLooks h2 {
     text-align: left;
-    font-family: 'Federo';
+    font-family: 'Bentham';
 
 }
 
@@ -197,7 +196,7 @@ body {
 
 .faveLooks p {
     font-size: 14px;
-    font-family: 'Bentham';
+    font-family: 'Quicksand';
 }
 
 
