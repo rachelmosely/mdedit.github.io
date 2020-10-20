@@ -101,7 +101,7 @@ body {
 .welcome p {
     margin-top: 0px;
     text-align: center;
-    font-family:'fonts/Bentham', sans-serif;
+    font-family:'Bentham';
     font-size: 18px;
     color: #252525;
 }
@@ -117,7 +117,7 @@ body {
 
 
 .latestLooks h2 {
-    font-family: 'fonts/Federo', sans-serif;
+    font-family: 'Federo';
     text-align: left;
 }
 
@@ -142,13 +142,13 @@ body {
 
 .latestLooks h5 {
     font-size: 16px;
-    font-family: 'Bentham', sans-serif;
+    font-family: 'Bentham';
     text-transform: uppercase;
 }
 
 .latestLooks p {
     font-size: 14px;
-    font-family: 'Bentham', sans-serif;
+    font-family: 'Bentham';
 }
 
 
@@ -160,7 +160,7 @@ body {
 }
 
 .faveLooks h2 {
-    font-family: 'Federo', sans-serif;
+    font-family: 'Federo';
     text-align: left;
 }
 
@@ -189,14 +189,14 @@ body {
 
 .faveLooks h5 {
     font-size: 16px;
-    font-family: 'Bentham', sans-serif;
+    font-family: 'Bentham';
     text-transform: uppercase;
 
 }
 
 .faveLooks p {
     font-size: 14px;
-    font-family: 'Bentham' , sans-serif;
+    font-family: 'Bentham';
 }
 
 
@@ -209,7 +209,7 @@ body {
 
 
 .processOfLook h2 {
-    font-family: 'Federo', sans-serif;
+    font-family: 'Federo';
     text-align: left;
 }
 
