@@ -117,11 +117,11 @@ body {
 
 
 .latestLooks h2 {
-    font-family: 'Federo';
     text-align: left;
 }
 
 .latestLooks a {
+    font-family: 'Federo';
     text-decoration-line: none;
     color: #252525;
 }
@@ -160,11 +160,11 @@ body {
 }
 
 .faveLooks h2 {
-    font-family: 'Federo';
     text-align: left;
 }
 
 .faveLooks a {
+    font-family: 'Federo';
     text-decoration-line: none;
     color: #252525;
 }
