@@ -215,17 +215,17 @@ html,body
 }
 
 
-.processOfLook h2 {
+.processOfLookHome h2 {
     font-family: 'Federo';
     text-align: left;
 }
 
-.processOfLook a {
+.processOfLookHome a {
     text-decoration-line: none;
     color: #252525;
 }
 
-.processOfLook a:hover {
+.processOfLookHome a:hover {
     color: #e8c9c2;
 }
 
