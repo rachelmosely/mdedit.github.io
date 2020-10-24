@@ -591,7 +591,7 @@ border-bottom: 8px solid #FFC1C1;
 
 .btsPageTitle {
     padding: 50px;
-    font-family: 'Bentham';
+    font-family: 'Federo';
     font-size: 20px;
     color: #5D5D5D;
     text-transform: uppercase;
@@ -600,7 +600,7 @@ border-bottom: 8px solid #FFC1C1;
 
 
 .btsLandingPageContent {
-    font-family: 'Bentham';
+    font-family: 'Federo';
     text-transform: uppercase;
 }
 
@@ -613,7 +613,7 @@ border-bottom: 8px solid #FFC1C1;
 
 
 .btsTimelineP a {
-    padding-left: 10px;
+    padding-left: 50px;
     padding-top: 25px;
 }
 
@@ -660,7 +660,7 @@ border-bottom: 8px solid #FFC1C1;
     padding: 15px 75px;
     color: white;
     font-size: 24px;
-    font-family: 'Bentham';
+    font-family: 'Federo';
 
 }
 
