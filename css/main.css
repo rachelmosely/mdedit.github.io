@@ -611,7 +611,7 @@ border-bottom: 8px solid #FFC1C1;
 .btsTimeline {
 	padding: 25px;
 	margin-top: 25px;
-	border-top: solid 2px blue;
+	border-top: solid 2px red;
 	border-bottom: solid 2px #ffc1c1;
 }
 
@@ -634,7 +634,10 @@ border-bottom: 8px solid #FFC1C1;
     color: #e8c9c2;
 }
 
-
+.btsTimelinePhotos
+{
+	display: inline-block;
+}
 .onSetWithMolly {
     background-color: #252525;
     border-bottom: 2px solid grey;
