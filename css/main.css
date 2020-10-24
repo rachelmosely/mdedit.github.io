@@ -969,7 +969,7 @@ border-bottom: 8px solid #FFC1C1;
 /*ABOUT PAGE CSS START*/
 
 .aboutContent {
-    border: 2px solid red;
+    border: 2px solid blue;
     
 }
 
@@ -1005,8 +1005,10 @@ border-bottom: 8px solid #FFC1C1;
     padding-bottom: 15%;
 }
 .bioPhoto img {
-	float: right;
+	float: left;
 }
+
+
 .bioText {
     margin-left: 45px;
     font-size: 20px;
