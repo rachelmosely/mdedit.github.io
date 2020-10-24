@@ -606,7 +606,9 @@ border-bottom: 8px solid #FFC1C1;
 
 
 .btsTimeline {
-    padding: 25px;
+	padding: 25px;
+	margin-left: 50px;
+
 }
 
 
@@ -636,7 +638,7 @@ border-bottom: 8px solid #FFC1C1;
     padding: 15px 75px;
     color: white;
     font-size: 24px;
-    font-family: 'Reem+Kufi';
+    font-family: 'Bentham';
 
 }
 
@@ -658,7 +660,7 @@ border-bottom: 8px solid #FFC1C1;
     padding: 15px 75px;
     color: white;
     font-size: 24px;
-    font-family: 'Kodchasan';
+    font-family: 'Bentham';
 
 }
 
@@ -752,7 +754,6 @@ border-bottom: 8px solid #FFC1C1;
 
 .timeline-container {
     background-color: #252525;
-margin-left: 50px;
 }
 
 .timeline {
@@ -942,7 +943,7 @@ margin-left: 50px;
     display: flex;
 }
 
-.timeline-item a {
+.timeline-item p {
     color: white;
 }
 
