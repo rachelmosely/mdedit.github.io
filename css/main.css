@@ -973,14 +973,19 @@ border-bottom: 8px solid #FFC1C1;
 
 
 .aboutSite {
+    border: 1px solid #FFC1C1;
+}
+
+.aboutSite p {
     padding: 10px 200px 100px 200px;
     text-align: center;
-    border: 1px solid #FFC1C1;
 }
 
 
 .aboutSiteDear {
     font-family: 'fonts/reeyregular' , sans-serif;
+    padding: 10px 200px 100px 200px;
+    text-align: center;
     color: black;
     font-size: 36px;
     margin-top: 0px;
