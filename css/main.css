@@ -124,7 +124,7 @@ html,body
 
 .latestLooks h2 {
     text-align: left;
-    font-family: 'Bentham';
+    font-family: 'Federo';
 
 }
 
@@ -155,7 +155,7 @@ html,body
 
 .latestLookOne p, .latestLookTwo p, .latestLookThree p {
     font-size: 14px;
-    font-family: 'Quicksand';
+    font-family: 'Bentham';
 }
 
 
@@ -167,7 +167,9 @@ html,body
 }
 
 .faveLooks h2 {
-    text-align: left;
+ 	text-align: left;
+	font-family: 'Federo';
+
 }
 
 .faveLooks a {   
@@ -590,7 +592,7 @@ border-bottom: 8px solid #FFC1C1;
 
 
 .btsPageTitle {
-    padding: 50px;
+    padding: 30px;
     font-family: 'Federo';
     font-size: 20px;
     color: #5D5D5D;
@@ -638,7 +640,7 @@ border-bottom: 8px solid #FFC1C1;
     padding: 15px 75px;
     color: white;
     font-size: 24px;
-    font-family: 'Bentham';
+    font-family: 'Federo';
 
 }
 
