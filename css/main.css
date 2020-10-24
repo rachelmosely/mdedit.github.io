@@ -155,7 +155,7 @@ html,body
 
 .latestLookOne p, .latestLookTwo p, .latestLookThree p {
     font-size: 14px;
-    font-family: 'Cantarell';
+    font-family: 'Federo';
 }
 
 
@@ -203,7 +203,7 @@ html,body
 
 .faveLooks p {
     font-size: 14px;
-    font-family: 'Cantarell';
+    font-family: 'Federo';
 }
 
 
@@ -472,7 +472,7 @@ html,body
 
 .shopAB p, .shopCD p, .shopEF p, .shopGH p, .shopIJ p, .shopKL p {
     font-size: 14px;
-	font-family: 'Cantarell' , serif;
+	font-family: 'Federo' , serif;
     color: #5D5D5D;
 }
 
@@ -594,7 +594,7 @@ border-bottom: 8px solid #FFC1C1;
     padding: 30px;
     font-family: 'Federo';
     font-size: 20px;
-    color: #5D5D5D;
+    color: black;
     text-transform: uppercase;
 }
 
@@ -614,8 +614,9 @@ border-bottom: 8px solid #FFC1C1;
 
 
 .btsTimelineP a {
-    padding-left: 50px;
-    padding-top: 25px;
+	padding-left: 50px;
+	padding-top: 25px;
+	color: #5D5D5D
 }
 
 .btsLandingPageContent a {
