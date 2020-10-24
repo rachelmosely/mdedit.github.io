@@ -745,7 +745,7 @@ border-bottom: 8px solid #FFC1C1;
 
 
 /*
-*{
+{
             margin: 0;
             padding: 0;
         }
@@ -774,6 +774,7 @@ border-bottom: 8px solid #FFC1C1;
   font-family: 'Bentham';
   color: #fff;
 }
+
 .timeline__content-desc {
   margin: 0;
   font-size: 15px;
@@ -783,6 +784,7 @@ border-bottom: 8px solid #FFC1C1;
   font-weight: normal;
   line-height: 25px;
 }
+
 .timeline:before {
   position: absolute;
   left: 50%;
@@ -792,11 +794,13 @@ border-bottom: 8px solid #FFC1C1;
   content: "";
   background: rgba(255, 255, 255, .07);
 }
+
 @media only screen and (max-width: 767px) {
   .timeline:before {
     left: 40px;
   }
 }
+
 .timeline-item {
   padding: 40px 0;
   opacity: 0.3;
@@ -808,6 +812,7 @@ border-bottom: 8px solid #FFC1C1;
   position: relative;
   transform: translateY(-80px);
 }
+
 .timeline-item:before {
   content: attr(data-text);
   letter-spacing: 3px;
@@ -823,9 +828,11 @@ border-bottom: 8px solid #FFC1C1;
   opacity: 0;
   right: calc(-100% - 56px);
 }
+
 .timeline-item:nth-child(even) {
   align-self: flex-end;
 }
+
 .timeline-item:nth-child(even):before {
   right: auto;
   text-align: right;
@@ -835,19 +842,23 @@ border-bottom: 8px solid #FFC1C1;
   border-right: 2px solid rgba(255, 255, 255, .5);
   padding-right: 15px;
 }
+
 .timeline-item--active {
   opacity: 1;
   transform: translateY(0);
   filter: blur(0px);
 }
+
 .timeline-item--active:before {
   top: 50%;
   transition: 0.3s all 0.2s;
   opacity: 1;
 }
+
 .timeline-item--active .timeline__content-title {
   margin: -50px 0 20px 0;
 }
+
 @media only screen and (max-width: 767px) {
   .timeline-item {
     align-self: baseline !important;
@@ -866,10 +877,12 @@ border-bottom: 8px solid #FFC1C1;
     padding-bottom: 40px;
   }
 }
+
 .timeline__img {
   max-width: 100%;
   box-shadow: 0 10px 15px rgba(0, 0, 0, .4);
 }
+
 .timeline-container {
   width: 100%;
   position: relative;
@@ -895,6 +908,7 @@ border-bottom: 8px solid #FFC1C1;
   margin-bottom: 80px;
   position: relative;
 }
+
 .timeline-header__title {
   color: #fff;
   font-size: 58px;
@@ -902,6 +916,7 @@ border-bottom: 8px solid #FFC1C1;
   font-weight: normal;
   margin: 0;
 }
+
 .timeline-header__subtitle {
   color: rgba(255, 255, 255, .5);
   font-family: 'Bentham';
@@ -910,10 +925,12 @@ border-bottom: 8px solid #FFC1C1;
   margin: 10px 0 0 0;
   font-weight: normal;
 }
+
 .demo-footer {
   padding: 60px 0;
   text-align: center;
 }
+
 .demo-footer a {
   color: #999;
   display: inline-block;
