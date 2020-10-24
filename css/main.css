@@ -1004,17 +1004,17 @@ border-bottom: 8px solid #FFC1C1;
     text-transform: uppercase;
 }
 
-.bioContent {
+/*.bioContent {
     display: flex;
     padding-bottom: 15%;
-}
+} */
 
-.bioPhoto img {
+.bioContent img {
 	float: right;
 }
 
 
-.bioText {
+.bioContent{
     margin-left: 45px;
     font-size: 20px;
     padding: 0% 2%;
