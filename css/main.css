@@ -624,6 +624,11 @@ border-bottom: 8px solid #FFC1C1;
 }
 
 
+.processOfLook {
+	padding-left: 50px;
+}
+
+
 .btsLandingPageContent a {
     text-decoration-line: none;
     color: #252525;
