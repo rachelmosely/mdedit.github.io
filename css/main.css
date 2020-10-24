@@ -1031,101 +1031,40 @@ border-bottom: 8px solid #FFC1C1;
 /*CONTACT PAGE CSS START*/
 
 
-	.contact-form {
-		padding: 0 10%;
-		margin-top: 50px;
-		width: 80%;
-
-		input, textarea {
-			border: 1px solid #808080;
-			font-size: 12px;
-			padding: 10px 0;
-			text-transform: uppercase;
-		}
-
-		input[type="text"] {
-			float: left;
-			margin-bottom: 8px;
-			padding-left: 3%;
-			width: 44.9%;
-		}
-
-		.gutter {
-			margin-right: 2.8%;
-		}
-
-		textarea {
-			height: 106px;
-			padding-left: 3%;
-			margin-bottom: 22px;
-			width: 96.2%;
-		}
-
-		input[type="submit"] {
-			background-color: $red;
-			border: none;
-			color: $white;
-			height: 45px;
-			width: 100%;
-			max-width:93px;
-			text-align: center;
-		}
-
-	}
-
-	.close {
-		display: block;
-		height: 19px;
-		width: 19px;
-		background-image: url('https://i.imgur.com/WoKg12q.png');
-		background-repeat: no-repeat;
-		background-position: center;
-		position: absolute;
-		top: 15px;
-		right: 3%;
-	}
+	.contactEmail {
+    border: 2px solid #ffc1c1;
+    margin: 200px 250px 200px 250px;    
 }
 
-.btn {
-	border: 3px $white solid;
-  color: $white;
-	display: block;
-	font-size: 15px;
-	font-weight: normal;
-	margin: 0 auto;
-	max-width: 280px;
-	padding: 15px 0;
-	text-align: center;
-	text-transform: uppercase;
-  text-decoration: none;
-	width: 100%;
-}
-
-
-
-.emailform {
-    padding: 25px;
-    font-family: 'Bentham', sans-serif;
+.contactEmail h2 {
     text-align: center;
+    font-family: 'Federo' , serif;
+
 }
 
 
-
-.emailform p {
-    margin-bottom: 0;
+.contactEmail p {
+    text-align: center; 
+    font-family: 'Bentham' , serif;
 }
 
-.contactName {
-    border: 1px solid red;
-    display: flex;
+.contactEmail a {
+    color: darkslategray; 
+}
+
+.contactEmail a:hover {
+    color: #ffc1c1;
 }
 
 
-#submit {
-    padding-top: 25px;
+.emailIcon {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-
+.emailIcon img {
+    opacity: 0.6;
+}
 
 
 .footer  {
