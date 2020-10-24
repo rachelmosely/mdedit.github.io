@@ -591,18 +591,22 @@ border-bottom: 8px solid #FFC1C1;
 
 
 .btsPageTitle {
-    padding: 30px;
-    font-family: 'Federo';
-    font-size: 20px;
-    color: black;
-    text-transform: uppercase;
+	padding: 30px;
+	font-family: 'Federo';
+	font-size: 20px;
+	color: black;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+
 }
 
 
 
 .btsLandingPageContent {
-    font-family: 'Federo';
-    text-transform: uppercase;
+	font-family: 'Federo';
+	text-transform: uppercase;
+	border-top: solid 2px #ffc1c1;
+
 }
 
 
@@ -610,7 +614,6 @@ border-bottom: 8px solid #FFC1C1;
 	padding: 25px;
 	margin-left: 50px;
 	margin-top: 50px;
-	border-top: solid 2px #ffc1c1;
 
 }
 
