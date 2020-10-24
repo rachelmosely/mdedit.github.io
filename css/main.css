@@ -967,14 +967,14 @@ border-bottom: 8px solid #FFC1C1;
 /*ABOUT PAGE CSS START*/
 
 .aboutContent {
-    border: 1px solid pink;
+    border: 1px solid blue;
     
 }
 
 
 .aboutSite {
-   padding: 10px 200px 100px 200px;
-   text-align: center;
+    padding: 10px 200px 100px 200px;
+    text-align: center;
     border: 1px solid #FFC1C1;
 }
 
@@ -989,7 +989,7 @@ border-bottom: 8px solid #FFC1C1;
 
 .aboutSite p {
     font-family: 'Bentham', sans-serif;
-    font-size: 18px;
+    font-size: 20px
 }
 
 .bio {
