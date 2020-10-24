@@ -605,22 +605,23 @@ border-bottom: 8px solid #FFC1C1;
 .btsLandingPageContent {
 	font-family: 'Federo';
 	text-transform: uppercase;
-	border-top: solid 2px #ffc1c1;
-
 }
 
 
 .btsTimeline {
 	padding: 25px;
 	margin-left: 50px;
-	margin-top: 50px;
+	margin-top: 25px;
+	border-top: solid 2px #ffc1c1;
+
+
 
 }
 
 
 .btsTimelineP a {
 	padding-left: 50px;
-	padding-top: 25px;
+	padding-top: 75px;
 	color: #5D5D5D
 }
 
