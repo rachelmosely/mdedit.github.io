@@ -45,7 +45,7 @@ html,body
 
 .siteHeader nav li a{
     text-decoration-line: none;
-    font-family: 'Abril Fatface';
+    font-family: 'Bentham';
     text-transform: uppercase;
     color: #5D5D5D;
 
@@ -124,7 +124,7 @@ html,body
 
 .latestLooks h2 {
     text-align: left;
-    font-family: 'Quicksand';
+    font-family: 'Bentham';
 
 }
 
@@ -149,7 +149,7 @@ html,body
 
 .latestLookOne h5, .latestLookTwo h5, .latestLookThree h5 {
     font-size: 16px;
-    font-family: 'Quicksand';
+    font-family: 'Bentham';
     text-transform: uppercase;
 }
 
@@ -203,7 +203,7 @@ html,body
 
 .faveLooks p {
     font-size: 14px;
-    font-family: 'Quicksand';
+    font-family: 'Bentham';
 }
 
 
@@ -523,7 +523,7 @@ border-bottom: 8px solid #FFC1C1;
 }
 
 .shopPageTitle p {
-    font-family: 'Be+Vietnam';
+    font-family: 'Federo';
     font-size: 12px;
 }
 
@@ -600,7 +600,7 @@ border-bottom: 8px solid #FFC1C1;
 
 
 .btsLandingPageContent {
-    font-family: 'Reem+Kufi';
+    font-family: 'Bentham';
     text-transform: uppercase;
 }
 
