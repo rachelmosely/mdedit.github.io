@@ -638,11 +638,11 @@ border-bottom: 8px solid #FFC1C1;
 .onSetWithMolly {
     background-color: #252525;
     border-bottom: 2px solid grey;
-    margin-top: 0px;
 }
 
 
 .onSetWithMolly p {
+    margin-top: 0px;
     padding: 0px 75px 15px 75px;
     color: white;
     font-size: 24px;
