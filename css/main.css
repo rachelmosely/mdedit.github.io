@@ -988,6 +988,33 @@ border-bottom: 8px solid #FFC1C1;
     margin-top: 0px;
 }
 
+.aboutSite p {
+    font-family: 'Bentham', sans-serif;
+    font-size: 20px
+}
+.bio {
+    padding: 50px;
+    font-family: 'Bentham' , 'sans-serif';
+}
+.bioTitle {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.bioContent {
+    display: flex;
+    padding-bottom: 15%;
+}
+.bioPhoto img {
+	float: right;
+}
+.bioText {
+    margin-left: 45px;
+    font-size: 20px;
+    padding: 0% 2%;
+}
+
+
+/*
 
 .aboutSite p {
     font-family: 'Bentham', sans-serif;
@@ -1012,7 +1039,7 @@ border-bottom: 8px solid #FFC1C1;
 .bioContent img {
 	float: right;
 }
-
+*/
 
 .bioContent{
     margin-left: 45px;
