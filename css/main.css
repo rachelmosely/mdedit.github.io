@@ -155,7 +155,7 @@ html,body
 
 .latestLookOne p, .latestLookTwo p, .latestLookThree p {
     font-size: 14px;
-    font-family: 'Bentham';
+    font-family: 'Cantarell';
 }
 
 
@@ -168,12 +168,10 @@ html,body
 
 .faveLooks h2 {
  	text-align: left;
-	font-family: 'Federo';
-
 }
 
 .faveLooks a {   
-    font-family: 'Bentham';
+    font-family: 'Federo';
     text-decoration-line: none;
     color: #252525;
 }
@@ -205,7 +203,7 @@ html,body
 
 .faveLooks p {
     font-size: 14px;
-    font-family: 'Bentham';
+    font-family: 'Cantarell';
 }
 
 
@@ -446,7 +444,6 @@ html,body
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: 'Bentham', sans-serif;
     text-transform: uppercase;
 }
 
@@ -468,12 +465,14 @@ html,body
 
 .shopAB h2, .shopCD h2, .shopEF h2, .shopGH h2, .shopIJ h2, .shopKL h2 {
     font-size: 16px;
+	font-family: 'Bentham', serif;
     color: #5D5D5D;
 }
 
 
 .shopAB p, .shopCD p, .shopEF p, .shopGH p, .shopIJ p, .shopKL p {
     font-size: 14px;
+	font-family: 'Cantarell' , serif;
     color: #5D5D5D;
 }
 
