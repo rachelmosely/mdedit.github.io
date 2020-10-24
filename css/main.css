@@ -969,7 +969,7 @@ border-bottom: 8px solid #FFC1C1;
 /*ABOUT PAGE CSS START*/
 
 .aboutContent {
-    border: 2px solid blue;
+    border: 4px dotted blue;
     
 }
 
@@ -1000,16 +1000,31 @@ border-bottom: 8px solid #FFC1C1;
     font-size: 36px;
     text-transform: uppercase;
 }
+
 .bioContent {
-    display: flex;
+    /*display: flex;*/
     padding-bottom: 15%;
 }
+
+.bioContent::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .bioPhoto img {
 	float: left;
 }
 
 
 .bioText {
+    margin-left: 45px;
+    font-size: 20px;
+    padding: 0% 2%;
+}
+
+
+.bioContent{
     margin-left: 45px;
     font-size: 20px;
     padding: 0% 2%;
@@ -1038,16 +1053,7 @@ border-bottom: 8px solid #FFC1C1;
     padding-bottom: 15%;
 } */
 
-.bioContent img {
-	float: right;
-}
-*/
 
-.bioContent{
-    margin-left: 45px;
-    font-size: 20px;
-    padding: 0% 2%;
-}
 
 
 
