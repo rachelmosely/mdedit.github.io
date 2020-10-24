@@ -638,6 +638,7 @@ border-bottom: 8px solid #FFC1C1;
 .onSetWithMolly {
     background-color: #252525;
     border-bottom: 2px solid grey;
+    margin-top: 0px;
 }
 
 
@@ -659,9 +660,8 @@ border-bottom: 8px solid #FFC1C1;
 .shopWithMolly {
     background-color: #252525;
     border-bottom: 2px solid grey;
-
-
 }
+
 
 .shopWithMolly p {
     padding: 15px 75px;
