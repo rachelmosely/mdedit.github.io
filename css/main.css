@@ -611,7 +611,7 @@ border-bottom: 8px solid #FFC1C1;
 .btsTimeline {
 	padding: 25px;
 	margin-top: 25px;
-	border-top: solid 2px green;
+	border-top: solid 2px red;
 	border-bottom: solid 2px #ffc1c1;
 }
 
@@ -634,11 +634,12 @@ border-bottom: 8px solid #FFC1C1;
 
 .timelinePhotosBTS
 {
-	display: inline-block;
+	/*display: inline-block;*/
 	position: absolute;
 }
 
-.onSetWithMolly {
+.onSetWithMolly 
+{
     background-color: #252525;
     border-bottom: 2px solid grey;
 }
@@ -990,7 +991,7 @@ border-bottom: 8px solid #FFC1C1;
 }
 
 .aboutSite p {
-    font-family: 'Bentham', sans-serif;
+    font-family: 'Kodchasan', sans-serif;
     font-size: 20px
 }
 .bio {
@@ -1025,11 +1026,11 @@ border-bottom: 8px solid #FFC1C1;
 }
 
 
-.bioContent{
+/*.bioContent{
     margin-left: 45px;
     font-size: 20px;
     padding: 0% 2%;
-}
+}*/
 
 
 /*
