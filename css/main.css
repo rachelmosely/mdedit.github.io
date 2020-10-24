@@ -635,6 +635,7 @@ border-bottom: 8px solid #FFC1C1;
 .timelinePhotosBTS
 {
 	display: inline-block;
+	position: absolute;
 }
 
 .onSetWithMolly {
