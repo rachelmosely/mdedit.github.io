@@ -739,7 +739,7 @@ border-bottom: 8px solid #FFC1C1;
 
 
 .btlWelcome p {
-    font-family: 'Federo', monospace;
+    font-family: 'Bentham', sans-serif;
     font-size: 20px;
 }
 
@@ -940,6 +940,10 @@ border-bottom: 8px solid #FFC1C1;
 
 #timeline-item-1 {
     display: flex;
+}
+
+.timeline-item a {
+    color: white;
 }
 
 .timeline-item a {
