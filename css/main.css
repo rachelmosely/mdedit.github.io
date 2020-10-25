@@ -611,7 +611,7 @@ border-bottom: 8px solid #FFC1C1;
 .btsTimeline {
 	padding: 25px;
 	margin-top: 25px;
-	border-top: solid 4px violet; /*#ffc1c1;*/
+	border-top: solid 4px tomato; /*#ffc1c1;*/
 	border-bottom: solid 2px #ffc1c1;
 }
 
@@ -635,7 +635,8 @@ border-bottom: 8px solid #FFC1C1;
 .timelinePhotosBTS {
 	display: flex;
 	justify-content: center;
-	/*white-space: nowrap;*/
+	white-space: nowrap;
+	max-width: 400px;
 }
 	
 
@@ -1001,7 +1002,7 @@ border-bottom: 8px solid #FFC1C1;
 .aboutSite {
     padding: 10px 50px 100px 50px;
     text-align: center;
-    border: 1px solid blue /*#FFC1C1*/;
+    border: 1px solid red /*#FFC1C1*/;
 }
 
 
@@ -1031,14 +1032,14 @@ border-bottom: 8px solid #FFC1C1;
 
 .bioContent {
     /*display: flex;*/
-    margin: 25px;
+    margin: 25px 25px 150px 25px;
 }
 
 
 .bioPhoto {
 	float: left;
-	/*margin-left: 50px;
-	padding-left: 5%;*/
+	margin-right: 50px;
+	padding-right: 5%;
 }
 
 
@@ -1107,7 +1108,7 @@ border-bottom: 8px solid #FFC1C1;
 .contactEmail {
     border: 2px solid #ffc1c1;
     margin: 200px 250px 200px 250px;
-	max-width: 600px;
+	max-width: 400px;
 }
 
 .contactEmail h2 {
