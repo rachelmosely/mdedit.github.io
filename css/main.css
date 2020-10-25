@@ -636,7 +636,6 @@ border-bottom: 8px solid #FFC1C1;
 	display: flex;
 	justify-content: center;
 	white-space: nowrap;
-	max-width: 400px;
 }
 	
 
@@ -993,16 +992,16 @@ border-bottom: 8px solid #FFC1C1;
 
 /*ABOUT PAGE CSS START*/
 
-.aboutContent {
+/*.aboutContent {
     border: 4px dotted blue;
     
-}
+} */
 
 
 .aboutSite {
     padding: 10px 50px 100px 50px;
     text-align: center;
-    border: 1px solid red /*#FFC1C1*/;
+    border: 1px solid violet/*#FFC1C1*/;
 }
 
 
@@ -1046,6 +1045,7 @@ border-bottom: 8px solid #FFC1C1;
 
 .bioText {
  	padding: 2%;
+	position: absolute;
    		 /*margin-left: 45px;
    		 font-size: 20px;
   		  padding: 5% 5%;*/
@@ -1108,7 +1108,7 @@ border-bottom: 8px solid #FFC1C1;
 .contactEmail {
     border: 2px solid #ffc1c1;
     margin: 200px 250px 200px 250px;
-	max-width: 400px;
+	position: absolute;
 }
 
 .contactEmail h2 {
