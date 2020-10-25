@@ -1001,7 +1001,7 @@ border-bottom: 8px solid #FFC1C1;
 .aboutSite {
     padding: 10px 50px 100px 50px;
     text-align: center;
-    border: 1px solid green/*#FFC1C1*/;
+    border: 1px solid red/*#FFC1C1*/;
 }
 
 
@@ -1044,8 +1044,8 @@ border-bottom: 8px solid #FFC1C1;
 
 
 .bioText {
- 	padding: 2%;
-	font-size: 24px;
+ 	padding-left: 100px;
+	font-size: 20px;
    		 /*margin-left: 45px;
    		 font-size: 20px;
   		  padding: 5% 5%;*/
@@ -1107,9 +1107,9 @@ border-bottom: 8px solid #FFC1C1;
 
 .contactEmail {
     border: 2px solid #ffc1c1;
-    margin: 200px 250px 200px 250px;
-	position: absolute;
+    margin: 100px 150px 100px 150px;
 }
+
 
 .contactEmail h2 {
     text-align: center;
