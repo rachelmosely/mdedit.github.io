@@ -1002,7 +1002,8 @@ border-bottom: 8px solid #FFC1C1;
 .aboutSite {
     padding: 10px 50px 100px 50px;
     text-align: center;
-    border: 2px solid green/*#FFC1C1*/;
+    border-top: solid 2px #ffc1c1;
+    border-bottom: solid 2px #ffc1c1;
 }
 
 
