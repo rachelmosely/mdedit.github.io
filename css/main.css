@@ -611,7 +611,7 @@ border-bottom: 8px solid #FFC1C1;
 .btsTimeline {
 	padding: 25px;
 	margin-top: 25px;
-	border-top: solid 2px #ffc1c1;
+	border-top: solid 4px cadetblue; /*#ffc1c1;*/
 	border-bottom: solid 2px #ffc1c1;
 }
 
@@ -630,18 +630,29 @@ border-bottom: 8px solid #FFC1C1;
     color: #e8c9c2;
 }
 
+
+
 .timelinePhotosBTS {
-display: inline-block;
-  white-space: nowrap;
-  margin-top: 150px;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+	white-space: nowrap;
 }
+	
+
+	/* ALT CODE 1 FOR TIMELINE PHOTOS ON BTS PAGE:
+	.timelinePhotosBTS {
+	display: inline-block;
+	  white-space: nowrap;
+	  margin-top: 150px;
+	  position: relative;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	}
+	*/
 
 
-	/* ALT CODE FOR TIMELINE PHOTOS ON BTS PAGE:
+	/* ALT CODE 2 FOR TIMELINE PHOTOS ON BTS PAGE:
 	.timelinePhotosBTS
 	{
 		display: inline-block;
@@ -1025,16 +1036,17 @@ display: inline-block;
 
 .bioPhoto {
 	float: left;
-	margin-left: 50px;
-	padding-left: 5%;
+	/*margin-left: 50px;
+	padding-left: 5%;*/
 }
 
 
 
 .bioText {
-    margin-left: 45px;
-    font-size: 20px;
-    padding: 5% 5%;
+ 	padding: 2%;
+   		 /*margin-left: 45px;
+   		 font-size: 20px;
+  		  padding: 5% 5%;*/
 }
 
 
