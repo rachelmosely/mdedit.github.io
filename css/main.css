@@ -634,7 +634,7 @@ border-bottom: 8px solid #FFC1C1;
 
 .timelinePhotosBTS {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	white-space: nowrap;
 }
 	
