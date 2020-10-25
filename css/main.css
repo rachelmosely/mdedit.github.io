@@ -1003,7 +1003,7 @@ max-width: 600px;
 }
 
 .aboutSite p {
-    font-family: 'Kodchasan', sans-serif;
+    font-family: 'Bentham', sans-serif;
     font-size: 20px
 }
 
@@ -1011,6 +1011,8 @@ max-width: 600px;
     padding: 50px;
     font-family: 'Bentham' , 'sans-serif';
 }
+
+
 .bioTitle {
     font-size: 36px;
     text-transform: uppercase;
@@ -1019,11 +1021,6 @@ max-width: 600px;
 .bioContent {
     display: flex;
     padding-bottom: 15%;
-}
-
-
-.bioPhoto img {
-	float: left;
 }
 
 
