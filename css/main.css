@@ -124,7 +124,7 @@ html,body
 
 .latestLooks h2 {
     text-align: left;
-    font-family: 'Kodchasan';
+    font-family: 'Federo';
 
 }
 
@@ -141,7 +141,7 @@ html,body
 .latestLooksImages {
     display: flex;
     justify-content: space-around;
-    width: auto;
+    /*width: 100%;*/
     height: auto;
     padding: 0px;
 }
@@ -184,7 +184,7 @@ html,body
 .faveLooksImages {
     display: flex;
     justify-content: space-around;
-    width: auto;
+    /*width: 100%;*/
     height: auto;
     padding: 0px;}
 
@@ -1001,7 +1001,7 @@ border-bottom: 8px solid #FFC1C1;
 .aboutSite {
     padding: 10px 50px 100px 50px;
     text-align: center;
-    border: 1px solid blue/*#FFC1C1*/;
+    border: 1px solid orange/*#FFC1C1*/;
 }
 
 
@@ -1031,6 +1031,7 @@ border-bottom: 8px solid #FFC1C1;
 
 .bioContent {
     display: flex;
+    padding: 50px; 
     /*margin: 25px 25px 150px 25px;*/
 }
 
