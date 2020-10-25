@@ -990,7 +990,7 @@ display: inline-block;
 .aboutSite {
     padding: 10px 50px 100px 50px;
     text-align: center;
-    border: 1px solid #FFC1C1;
+    border: 1px solid blue /*#FFC1C1*/;
 }
 
 
@@ -1026,6 +1026,7 @@ display: inline-block;
 .bioPhoto {
 	float: left;
 	margin-left: 50px;
+	padding-left: 5%;
 }
 
 
