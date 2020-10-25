@@ -1001,7 +1001,7 @@ border-bottom: 8px solid #FFC1C1;
 .aboutSite {
     padding: 10px 50px 100px 50px;
     text-align: center;
-    border: 1px solid violet/*#FFC1C1*/;
+    border: 1px solid green/*#FFC1C1*/;
 }
 
 
@@ -1019,7 +1019,7 @@ border-bottom: 8px solid #FFC1C1;
 
 .bio {
     /*padding: 50px;*/
-    margin: 25px;
+    /*margin: 25px;*/
     font-family: 'Bentham' , 'sans-serif';
 }
 
@@ -1031,21 +1031,21 @@ border-bottom: 8px solid #FFC1C1;
 
 .bioContent {
     /*display: flex;*/
-    margin: 25px 25px 150px 25px;
+    /*margin: 25px 25px 150px 25px;*/
 }
 
 
 .bioPhoto {
 	float: left;
-	margin-right: 50px;
-	padding-right: 5%;
+	/*margin-right: 50px;
+	padding-right: 5%;*/
 }
 
 
 
 .bioText {
  	padding: 2%;
-	position: absolute;
+	font-size: 24px;
    		 /*margin-left: 45px;
    		 font-size: 20px;
   		  padding: 5% 5%;*/
