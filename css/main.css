@@ -1018,7 +1018,8 @@ border-bottom: 8px solid #FFC1C1;
 }
 
 .bio {
-    padding: 50px;
+    /*padding: 50px;*/
+    margin: 25px;
     font-family: 'Bentham' , 'sans-serif';
 }
 
@@ -1030,7 +1031,7 @@ border-bottom: 8px solid #FFC1C1;
 
 .bioContent {
     /*display: flex;*/
-    padding-bottom: 15%;
+    margin: 25px;
 }
 
 
@@ -1106,7 +1107,7 @@ border-bottom: 8px solid #FFC1C1;
 .contactEmail {
     border: 2px solid #ffc1c1;
     margin: 200px 250px 200px 250px;
-	min-width: 600px;
+	max-width: 600px;
 }
 
 .contactEmail h2 {
