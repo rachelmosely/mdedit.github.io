@@ -1018,9 +1018,15 @@ display: inline-block;
 }
 
 .bioContent {
-    display: flex;
+    /*display: flex;*/
     padding-bottom: 15%;
 }
+
+
+.bioPhoto {
+	float: left;
+}
+
 
 
 .bioText {
@@ -1029,6 +1035,10 @@ display: inline-block;
     padding: 0% 2%;
 }
 
+
+.bioClearFloat {
+  clear: both;
+}
 
 /*.bioContent{
     margin-left: 45px;
