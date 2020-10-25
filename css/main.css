@@ -634,11 +634,11 @@ border-bottom: 8px solid #FFC1C1;
 {
 display: inline-block;
   white-space: nowrap;
-  padding-top: 50px;
+  margin-top: 150px;
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-10%, -10%);
+  transform: translate(-50%, -50%);
 }
 
 
