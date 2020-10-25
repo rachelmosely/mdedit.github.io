@@ -611,12 +611,12 @@ border-bottom: 8px solid #FFC1C1;
 .btsTimeline {
 	padding: 25px;
 	margin-top: 25px;
-	border-top: solid 4px aquamarine; /*#ffc1c1;*/
+	border-top: solid 2px #ffc1c1;
 	border-bottom: solid 2px #ffc1c1;
 }
 
 .btsTimelineP {
-	padding: 0px 75px 15px 75px;
+	padding: 0px 50px 15px 75px;
 }
 
 
@@ -1001,7 +1001,7 @@ border-bottom: 8px solid #FFC1C1;
 .aboutSite {
     padding: 10px 50px 100px 50px;
     text-align: center;
-    border: 1px solid orange/*#FFC1C1*/;
+    border: 1px solid green/*#FFC1C1*/;
 }
 
 
