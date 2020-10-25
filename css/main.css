@@ -752,12 +752,13 @@ display: inline-block;
 
 
 .btlWelcome {
-    padding: 10px 175px 150px 175px;
+    padding: 10px 50px 100px 50px; /*10px 175px 150px 175px;*/
 }
 
 .btlWelcome h4 {
     font-family: 'fonts/reeyregular';
     font-size: 36px;
+
 }
 
 
