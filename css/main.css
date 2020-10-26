@@ -1028,6 +1028,7 @@ border-bottom: 8px solid #FFC1C1;
 
 .bioTitle {
     font-size: 36px;
+    text-align: center;
     text-transform: uppercase;
 }
 
